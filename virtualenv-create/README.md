@@ -1,4 +1,4 @@
-# Hand-Tracking
+# Crear un entorno virtual con virtualvenv
 
 ## Instalación y Uso del Entorno Virtual en Python
 
