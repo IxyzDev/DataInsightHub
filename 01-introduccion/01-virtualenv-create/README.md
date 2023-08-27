@@ -91,6 +91,13 @@ Una vez que hayas activado el entorno virtual, dentro de este entorno, instala l
 pip install -r requirements.txt
 ```
 
+Para actualizar requerements.txt
+
+```
+pip freeze > requirements.txt
+```
+
+
 **Paso 6: Desactivar el Entorno Virtual**
 
 Cuando hayas terminado de trabajar en tu proyecto y quieras salir del entorno virtual, simplemente escribe:
