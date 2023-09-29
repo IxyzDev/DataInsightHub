@@ -30,3 +30,34 @@ Para el cuaderno de Jupyter, asegúrate de incluir:
 Dada la complejidad de la tarea, lo más probable es que debas dividirla en diferentes fases y asegurarte de ir comprobando tus resultados en cada etapa.
 
 Si tienes preguntas específicas o necesitas más detalles en cualquiera de los pasos, no dudes en preguntar. ¡Buena suerte!
+
+
+
+https://snap.stanford.edu/data/#as
+https://snap.stanford.edu/data/sx-stackoverflow.html
+
+
+El dataset del Stack Overflow temporal network es una fuente rica para analizar las interacciones entre los usuarios de la comunidad de Stack Overflow. Los tipos de interacción como responder a preguntas, comentar en preguntas y comentar en respuestas podrían arrojar luz sobre la centralidad y la dispersión de influencia en este tipo de redes.
+
+### 1) Depuración del dataset
+- En primer lugar, necesitas descomprimir los archivos .gz y leer los datos en Python, posiblemente usando Pandas o NetworkX.
+- Deberás determinar si necesitas todas las interacciones o si te centrarás en una subcategoría, como "respuestas a preguntas".
+
+### 2) Medidas de Centralidad
+- Este dataset es especialmente interesante para aplicar medidas de centralidad, ya que podría ayudarte a identificar usuarios clave en la comunidad de Stack Overflow.
+- Podrías usar 'in-degree' para saber quiénes son los usuarios más consultados (a quienes más se les responde o comenta) y 'out-degree' para saber quiénes son los más activos en responder o comentar.
+
+### 3) Modelo de Dispersión de Influencia
+- Implementar un modelo como el Linear Threshold podría ayudarte a entender cómo una respuesta o comentario puede influir en otros usuarios a lo largo del tiempo.
+
+### 4) Cálculo de la Dispersión de Influencia
+- Usarás el modelo para evaluar cómo se propaga la influencia a partir de los 10 nodos más centrales identificados en cada tipo de interacción.
+  
+### 5) Correlación de Medidas de Centralidad
+- Al comparar diferentes medidas de centralidad entre sí y contra la dispersión de influencia, podrás entender si las personas que son centrales en un aspecto (por ejemplo, responder preguntas) también lo son en otros (por ejemplo, comentar en respuestas).
+
+### 6) Interpretación de Resultados
+- En el contexto de Stack Overflow, una alta centralidad podría indicar expertos en la materia o usuarios muy activos que contribuyen significativamente a la comunidad.
+- Una correlación fuerte entre diferentes medidas de centralidad podría sugerir que los usuarios activos en un tipo de interacción también suelen ser activos en otros, lo que podría ser útil para estrategias de gamificación o moderación del sitio.
+
+Recuerda que este es un conjunto de datos muy grande, por lo que el rendimiento computacional y la memoria podrían ser una consideración. Podrías necesitar trabajar con un subconjunto de datos o emplear técnicas de optimización.
