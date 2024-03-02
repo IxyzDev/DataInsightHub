@@ -87,7 +87,7 @@ Antes y después de tratar los outliers, calcula y compara las siguientes medida
 Para evaluar la normalidad y la homogeneidad de tus datos antes y después del tratamiento, puedes emplear:
 
 1. **Prueba de Shapiro-Wilk:** Ideal para muestras pequeñas, esta prueba evalúa la hipótesis de normalidad. Si el p-valor es menor que el nivel de significancia (usualmente 0.05), la hipótesis nula de normalidad se rechaza. Después del tratamiento de outliers, esperarías obtener un p-valor mayor si los datos se asemejan más a una distribución normal.
-   
+
    ```python
    from scipy.stats import shapiro
    
@@ -139,7 +139,7 @@ El p-valor es la probabilidad de obtener resultados al menos tan extremos como l
 
 - **Contexto y Disciplina:** Es crucial entender que el umbral de 0.05 no es una regla fija y puede variar según el campo de estudio o el contexto específico. En algunas áreas de investigación, un umbral de 0.01 (o incluso más riguroso) puede ser apropiado, mientras que en otros, un umbral menos estricto como 0.1 podría ser aceptable.
 
-### Ejemplo Práctico:
+### Ejemplo Práctico
 
 Imagina que estás investigando si un dado es justo (hipótesis nula) y obtienes una proporción inusualmente alta de seises en tus lanzamientos. Si calculas un p-valor basado en esta experimentación y resulta ser 0.03, interpretarías que, si el dado fuera justo, la probabilidad de obtener una proporción de seises tan alta o más, puramente por azar, sería del 3%. Dado que esto está por debajo del umbral común de 0.05, podrías concluir que hay evidencia estadística suficiente para rechazar la hipótesis de que el dado es justo.
 
