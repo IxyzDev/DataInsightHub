@@ -30,6 +30,26 @@ Las distribuciones de probabilidad describen cómo se distribuyen los valores de
 
 Claro, profundicemos en los conceptos de tendencia central y dispersión dentro de la estadística descriptiva, explicando los términos que mencionaste y añadiendo otros que son igualmente relevantes en el ámbito de la ciencia de datos.
 
+## Tipos de Variables
+
+Las variables en estadística se clasifican según los datos que representan, y entender la diferencia entre variables cuantitativas y cualitativas es fundamental para el análisis de datos en data science. Aquí explicaré la diferencia entre ambas:
+
+1. **Variables Cuantitativas:**
+   - **Definición:** Las variables cuantitativas son aquellas que se expresan numéricamente y permiten operaciones matemáticas. Representan cantidades y se pueden medir.
+   - **Tipos:**
+     - **Discretas:** Son variables cuantitativas que toman valores específicos y contables. Por ejemplo, el número de habitaciones en una casa o el número de estudiantes en una clase.
+     - **Continuas:** Son variables cuantitativas que pueden tomar cualquier valor dentro de un intervalo. Por ejemplo, la altura de una persona o la temperatura de una habitación.
+   - **Importancia en Data Science:** Permiten realizar análisis estadísticos y matemáticos detallados, como cálculos de tendencias centrales, medidas de dispersión, correlaciones y modelados predictivos.
+
+2. **Variables Cualitativas:**
+   - **Definición:** Las variables cualitativas, también conocidas como categóricas, describen características o cualidades que no pueden ser medidas con números. No admiten operaciones matemáticas convencionales.
+   - **Tipos:**
+     - **Nominales:** No tienen un orden inherente. Por ejemplo, los colores de una camiseta o las marcas de un automóvil.
+     - **Ordinales:** Tienen un orden o jerarquía, pero la distancia entre las categorías no es uniforme o no tiene sentido matemático. Por ejemplo, el nivel de educación o las calificaciones de satisfacción.
+   - **Importancia en Data Science:** Son esenciales para la clasificación, segmentación y análisis descriptivo. Su tratamiento y visualización requieren enfoques específicos, como tabulaciones de frecuencia o gráficos de barras.
+
+En data science, ambas variables juegan roles críticos. Las variables cuantitativas se utilizan para construir modelos predictivos y realizar análisis cuantitativos, mientras que las variables cualitativas son clave para la segmentación y el análisis descriptivo. Comprender la naturaleza de las variables con las que se trabaja es fundamental para seleccionar las técnicas estadísticas y de machine learning adecuadas y para interpretar correctamente los resultados de los análisis.
+
 ## Estadística Descriptiva
 
 ### Medidas de Tendencia Central

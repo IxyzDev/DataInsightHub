@@ -1,0 +1,1 @@
+Familiarizarse con las redes neuronales y cómo se estructuran. Aprender sobre los diferentes tipos de redes como las CNN (Convolutional Neural Networks) para el procesamiento de imágenes y las RNN (Recurrent Neural Networks) para datos secuenciales. Explorar frameworks como TensorFlow o PyTorch para construir y entrenar modelos de deep learning.
