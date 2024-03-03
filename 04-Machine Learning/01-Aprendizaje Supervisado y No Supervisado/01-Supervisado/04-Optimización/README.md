@@ -10,7 +10,7 @@ Los meta-algoritmos representan una técnica avanzada dentro del aprendizaje sup
 
 #### Descripción
 
-El bagging implica tomar muestras aleatorias con reemplazo del conjunto de datos de entrenamiento, entrenar un modelo en cada una de estas muestras y luego combinar sus predicciones. 
+El bagging implica tomar muestras aleatorias con reemplazo del conjunto de datos de entrenamiento, entrenar un modelo en cada una de estas muestras y luego combinar sus predicciones.
 
 #### Propósito
 
